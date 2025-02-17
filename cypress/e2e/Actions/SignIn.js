@@ -1,4 +1,4 @@
-import {PageLocators} from "../Elements/pageLocators";
+import {SignInLocators} from "../Elements/SignInLocators";
 
 class SignIn {
     openUrl() {
@@ -8,34 +8,34 @@ class SignIn {
     }
 
     enterEmail(email) {
-        cy.get(PageLocators.webLocators.email).type(email)
+        cy.get(SignInLocators.webLocators.email).type(email)
     }
 
     enterPassword(password) {
-        cy.get(PageLocators.webLocators.password).type(password)
+        cy.get(SignInLocators.webLocators.password).type(password)
     }
 
     clickLoginButton() {
-        cy.get(PageLocators.webLocators.loginButton).click();
+        cy.get(SignInLocators.webLocators.loginButton).click();
 
     }
 
     assertAdminUserName() {
-        cy.get(PageLocators.webLocators.adminPanel).should("be.visible")
+        cy.get(SignInLocators.webLocators.adminPanel).should("be.visible")
     }
 
     assertErrorMessageForInvalidUsers() {
-        cy.get(PageLocators.webLocators.errorMessageInvalidUsers).should("be.visible");
+        cy.get(SignInLocators.webLocators.errorMessageInvalidUsers).should("be.visible");
     }
 
     assertErrorMessageForInvalidCreds() {
-        cy.get(PageLocators.webLocators.errorMessageInvalidCredentials).should("be.visible")
+        cy.get(SignInLocators.webLocators.errorMessageInvalidCredentials).should("be.visible")
 
     }
 
     logOut() {
-        cy.get(PageLocators.webLocators.adminPanel).click();
-        cy.get(PageLocators.webLocators.logOut).contains("Log out").click();
+        cy.get(SignInLocators.webLocators.adminPanel).click();
+        cy.get(SignInLocators.webLocators.logOut).contains("Log out").click();
     }
 
 }

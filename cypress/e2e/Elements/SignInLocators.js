@@ -1,4 +1,4 @@
-export const PageLocators = {
+export const SignInLocators = {
     webLocators: {
         email: "input[placeholder='Email']",
         password: "input[placeholder ='Password']",
