@@ -1,10 +1,14 @@
 
-```markdown
 # 🔐 SignIn_WorkFlow_Testing_ProdmapAi
+
+![GitHub repo size](https://img.shields.io/github/repo-size/HripsimeManukyan/SignIn_WorkFlow_Testing_ProdmapAi)
+![GitHub last commit](https://img.shields.io/github/last-commit/HripsimeManukyan/SignIn_WorkFlow_Testing_ProdmapAi)
+![GitHub package.json dependency version (Cypress)](https://img.shields.io/github/package-json/dependency-version/HripsimeManukyan/SignIn_WorkFlow_Testing_ProdmapAi/cypress)
+![Tested with Cypress](https://img.shields.io/badge/tested%20with-Cypress-3e8ddd.svg)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 This repository contains **automated Cypress test cases** to validate the **Sign-In workflow** and related **report functionality** of the [ProdMap AI](https://prodmap.ai) platform.
 
----
 
 ## 📁 Project Structure
 
