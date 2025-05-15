@@ -76,7 +76,7 @@ This project uses **GitLab CI/CD** for automated test execution. The `.gitlab-ci
 ## ✍️ Author
 
 - **Hripsime Manukyan**  
-  *Automated QA Engineer | Cypress | ProdMap AI*
+  *Automated QA Engineer | Cypress*
 
 ---
 
